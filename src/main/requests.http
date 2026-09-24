@@ -1,0 +1,26 @@
+### 1. Создать новую задачу (Успешно)
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Изучить Spring Core",
+  "description": "Разобрать IoC и DI",
+  "priority": "HIGH",
+  "deadline": "2026-12-31T23:59:59"
+}
+
+### 2. Получить все задачи
+GET http://localhost:8080/api/tasks
+
+### 3. Проверка валидации (Должно вернуть 400 Bad Request)
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "",
+  "priority": "LOW",
+  "deadline": "2020-01-01T00:00:00"
+}
+
+### 4. Получить задачу, которой нет (Должно вернуть 404 Not Found)
+GET http://localhost:8080/api/tasks/999
