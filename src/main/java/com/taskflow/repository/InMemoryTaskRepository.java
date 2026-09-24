@@ -1,7 +1,7 @@
-package org.example.repository;
+package com.taskflow.repository;
 
-import org.example.domain.Status;
-import org.example.domain.Task;
+import com.taskflow.domain.Status;
+import com.taskflow.domain.Task;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

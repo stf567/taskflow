@@ -1,8 +1,8 @@
-package org.example.repository;
+package com.taskflow.repository;
 
-import org.example.domain.Priority;
-import org.example.domain.Status;
-import org.example.domain.Task;
+import com.taskflow.domain.Priority;
+import com.taskflow.domain.Status;
+import com.taskflow.domain.Task;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

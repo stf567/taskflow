@@ -1,8 +1,8 @@
-package org.example.repository;
+package com.taskflow.repository;
 
 
-import org.example.domain.Task;
-import org.example.domain.Status;
+import com.taskflow.domain.Task;
+import com.taskflow.domain.Status;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.taskflow.domain;
 
 public enum Status {
     TODO,

@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.taskflow.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
