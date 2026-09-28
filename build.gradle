@@ -28,6 +28,12 @@ dependencies {
 
     // Тестирование
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // AOP для аспектно-ориентированного программирования
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+
+    // Красивые логи в JSON формате (для будущих систем типа ELK)
+    implementation 'net.logstash.logback:logstash-logback-encoder:7.4'
 }
 
 tasks.named('test') {
